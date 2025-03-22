@@ -73,7 +73,13 @@ const About = () => {
 						</div>
 
 						<div className="pt-3 sm:pt-5">
-							<Button onClick={() => {}}>Links</Button>
+							<Button
+								onClick={() => {
+									window.location.href = '/links'
+								}}
+							>
+								Links
+							</Button>
 						</div>
 					</div>
 				))}
