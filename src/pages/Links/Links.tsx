@@ -44,7 +44,7 @@ const Links = () => {
 					))}
 				</div>
 			</div>
-			<div className="absolute bottom-35">
+			<div className="absolute bottom-26">
 				<Button
 					onClick={() => {
 						window.location.href = x
