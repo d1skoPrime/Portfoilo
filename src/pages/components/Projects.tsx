@@ -8,7 +8,7 @@ const Projects = () => {
 			id: 1,
 			title: 'Bakery Website',
 			description:
-				'Simple Bakery Website, where user can send an email with specific order. And who makes cakes will get that order on his email. It is pretty simple website',
+				'The Bakery Website, where user can send an email with specific order. And who makes cakes will get that order on his email.',
 			stack: 'React Js, Express Js, Tailwind 4, Nodemailer',
 			status: 'Completed',
 			link: 'https://github.com/d1skoPrime/bakery-client',
@@ -17,7 +17,7 @@ const Projects = () => {
 			id: 2,
 			title: 'Social Media',
 			description:
-				'It calls AnonGram, basically it is common social media as Instagram, however it has an option to send messages anonymously.',
+				'It calls AnonGram, it is social media as Instagram, however it has an option to send messages anonymously.',
 			stack: 'React Js, NestJs, Postgresql, JWT AUTH, Tailwind 4',
 			status: 'In Developing',
 			link: 'https://github.com/d1skoPrime/SocialMedia-BackEnd',
