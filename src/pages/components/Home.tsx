@@ -25,7 +25,7 @@ const Home = () => {
 					</p>
 					{/* Buttons */}
 					<div className="mt-6 flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-						<button className="cursor-pointer px-6 py-3 bg-gradient-to-r from-purple-600 to-orange-500 text-white font-bold rounded-full shadow-lg hover:opacity-90 transition w-full sm:w-auto">
+						<button className="cursor-pointer px-6 py-3 bg-gradient-to-r from-purple-600 to-orange-500 text-white font-bold rounded-full shadow-lg hover:opacity-90 transition w-full sm:w-auto" onClick={()=>{window.open('https://www.instagram.com/itsroman_25', '_blank')}}>
 							GET IN TOUCH
 						</button>
 						<button
